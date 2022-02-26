@@ -1,0 +1,8 @@
+#build docker
+docker build . -t nextjs-docker
+
+#up docker
+docker run -p 3000:3000 nextjs-docker
+
+# full command
+docker build . -t nextjs-docker && cls && docker run -p 3000:3000 nextjs-docker
