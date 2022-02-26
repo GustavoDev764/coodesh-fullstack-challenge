@@ -1,0 +1,6 @@
+laravel scheduler run
+php artisan schedule:list
+php artisan schedule:run
+
+laravel run schedule locally
+php artisan schedule:work
