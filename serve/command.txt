@@ -1,5 +1,0 @@
-#1 open container
-docker-compose exec app bash
-
-#2 init database
-sh run.sh
