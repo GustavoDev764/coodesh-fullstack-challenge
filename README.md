@@ -109,6 +109,7 @@ Acessar o projeto
 - Docker
 - Nodejs v16
 - Nextjs v12
+- Server Side Rendering (ssr)
 - Reactjs v17
 - TypeScript
 - Scss
