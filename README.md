@@ -109,6 +109,8 @@ Acessar o projeto
 - Nodejs v16
 - Nextjs v12
 - Reactjs v17
+- TypeScript
+- Sass
 
 ### Back-End:
 **Funcionalidades** - As funcionalidades implementada neste backend estão com icon :heavy_check_mark::
