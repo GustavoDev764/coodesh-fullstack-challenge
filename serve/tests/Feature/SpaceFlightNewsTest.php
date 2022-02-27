@@ -10,7 +10,7 @@ use Tests\TestCase;
 class SpaceFlightNewsTest extends TestCase
 {
     private static function  getMyUrl($url=''){
-        return url('/coodesh-challenge-fullstack/api/public'.$url);
+        return url('/coodesh-fullstack-challenge/serve/public'.$url);
     }
 
     private static function getNewSpaceFlightNews(){     
@@ -45,7 +45,6 @@ class SpaceFlightNewsTest extends TestCase
     public function test_update_space_flight_news()
     {
         $dataForm = $this::getNewSpaceFlightNews();
-
         $response = Http::post($this::getMyUrl('/api/articles'), $dataForm);
         $data = $response->json(); 
         $article = $data['data'];
