@@ -105,12 +105,16 @@ Acessar o projeto
 **Tecnologias usadas**:
 - Laravel v9
 - PHP v8
+- PHP Unit
 - Docker
 - Nodejs v16
 - Nextjs v12
 - Reactjs v17
 - TypeScript
 - Scss
+- Nginx
+- Mysql
+- Redis
 
 ### Back-End:
 **Funcionalidades** - As funcionalidades implementada neste backend estão com icon :heavy_check_mark::
